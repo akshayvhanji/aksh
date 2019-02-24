@@ -1,1 +1,5 @@
 language:c
+sudo: false # only for faster build
+compiler:gcc
+script:-gcc-0filefactorial.c
+
